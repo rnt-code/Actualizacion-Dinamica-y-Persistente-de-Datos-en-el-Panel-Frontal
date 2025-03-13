@@ -23,7 +23,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="dependencies" Type="Folder">
 			<Item Name="load_user_data.vi" Type="VI" URL="../dependencies/load_user_data.vi"/>
-			<Item Name="load_user_data2.vi" Type="VI" URL="../dependencies/load_user_data2.vi"/>
+			<Item Name="read user data.vi" Type="VI" URL="../dependencies/read user data.vi"/>
+			<Item Name="save user data.vi" Type="VI" URL="../dependencies/save user data.vi"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -66,7 +67,6 @@
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="save user data.vi" Type="VI" URL="../dependencies/save user data.vi"/>
 		<Item Name="user data.ini" Type="Document" URL="../user data.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -111,7 +111,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="read user data.vi" Type="VI" URL="../dependencies/read user data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
