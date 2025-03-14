@@ -37,4 +37,24 @@ name = "outdoor"
 ID = "GH6789"
 ```
 
+## ▶️ Comportamiento de la aplicación
+
+- **Al iniciar la aplicación:**
+  - Se carga el archivo `.ini` (si existe) y se actualizan los valores de configuración.
+  - Si el archivo no existe, se utilizan valores por defecto.
+
+- **Durante la ejecución:**
+  - El usuario puede modificar parámetros desde el Front Panel (FP).
+  - También puede editar directamente el archivo `.ini`, y actualizar los cambios en el FP utilizando el botón **`Update`**.
+
+- **Al cerrar la aplicación:**
+  - Los valores actuales se guardan automáticamente en el archivo `.ini` para ser reutilizados en la siguiente ejecución.
+
+---
+
+## 📌 Nota
+
+Este proyecto tiene únicamente fines demostrativos y no está orientado al uso productivo. Su finalidad es ilustrar el concepto de **persistencia de configuraciones** en aplicaciones LabVIEW, y cómo estas configuraciones pueden mantenerse y actualizarse durante el ciclo de vida de la aplicación.
+
+
 ![imagen](https://github.com/user-attachments/assets/c978b7b1-ad67-47b7-b424-9d211e61dbab)
