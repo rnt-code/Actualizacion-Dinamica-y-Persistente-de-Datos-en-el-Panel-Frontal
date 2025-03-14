@@ -1,5 +1,3 @@
-# Dynamic Update Front Panel Data
-
 # Prueba de concepto: Persistencia de datos de configuración en LabVIEW
 
 ## 📄 Descripción del proyecto
@@ -12,11 +10,22 @@ Esta prueba de concepto implementa una solución sencilla y eficaz para este pro
 
 De esta manera, cualquier modificación realizada por el usuario queda registrada de forma permanente, incluso después de cerrar y volver a abrir la aplicación.
 
+Además, el desarrollo está estructurado en base al patrón de diseño **QMH (Queued Message Handler)**, ampliamente utilizado en aplicaciones escalables y modulares en LabVIEW.
+
 ## 💡 Objetivo
 
 Demostrar cómo se puede implementar un mecanismo básico de **guardado y recuperación automática de configuraciones** en una aplicación LabVIEW, utilizando archivos `.ini` como medio de almacenamiento persistente.
 
 Este ejemplo puede servir como base para desarrollos más complejos que requieran conservar configuraciones entre sesiones.
+
+## 🖥️ Características adicionales
+
+El **Front Panel (FP)** de la aplicación incluye, además, una característica útil para ilustrar el funcionamiento del sistema de configuración:
+
+- Se muestran los **nombres de los sectores** (por ejemplo: `[SECTOR1]`) y los **nombres de las llaves** (`key_name=value`) tal como están definidos en el archivo `.ini`.
+- Esta información no tendría utilidad directa en una aplicación real, pero en este caso cumple un fin didáctico, ya que permite **visualizar de forma clara la relación entre el archivo `.ini` y la interfaz gráfica**.
+
+Adicionalmente, se ha incorporado un botón denominado **`Update`**, cuya función es **refrescar los valores mostrados en el FP en tiempo de ejecución**. Esto permite que, si el usuario edita manualmente el archivo `.ini` durante la ejecución de la aplicación (por ejemplo, cambiando el nombre de un sector o de una clave, y guardando esos cambios), al presionar el botón **`Update`**, la aplicación **vuelva a leer el archivo actualizado** y **refleje los nuevos valores en pantalla**.
 
 ## 📂 Estructura del archivo `.ini`
 
