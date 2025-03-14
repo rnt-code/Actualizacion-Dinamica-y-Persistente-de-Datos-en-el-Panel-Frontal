@@ -41,11 +41,11 @@ ID = "GH6789"
 
 - **Al iniciar la aplicación:**
   - Se carga el archivo `.ini` (si existe) y se actualizan los valores de configuración.
-  - Si el archivo no existe, se utilizan valores por defecto.
+  - Si el archivo no existe, se emitirá el error correspondiente.
 
 - **Durante la ejecución:**
-  - El usuario puede modificar parámetros desde el Front Panel (FP).
-  - También puede editar directamente el archivo `.ini`, y actualizar los cambios en el FP utilizando el botón **`Update`**.
+  - El usuario puede modificar los valores de las llaves desde el Front Panel (FP).
+  - También puede editar directamente el archivo `.ini` (manteniendo el número de sectores y llaves), y actualizar los cambios en el FP utilizando el botón **`Update`**.
 
 - **Al cerrar la aplicación:**
   - Los valores actuales se guardan automáticamente en el archivo `.ini` para ser reutilizados en la siguiente ejecución.
