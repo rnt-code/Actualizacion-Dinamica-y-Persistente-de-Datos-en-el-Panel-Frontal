@@ -22,10 +22,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="dependencies" Type="Folder">
-			<Item Name="load_user_data.vi" Type="VI" URL="../dependencies/load_user_data.vi"/>
-			<Item Name="read user data.vi" Type="VI" URL="../dependencies/read user data.vi"/>
 			<Item Name="read-write user data.vi" Type="VI" URL="../dependencies/read-write user data.vi"/>
-			<Item Name="save user data.vi" Type="VI" URL="../dependencies/save user data.vi"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
