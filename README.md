@@ -65,5 +65,6 @@ ID = "GH6789"
 
 Este proyecto tiene únicamente fines demostrativos y no está orientado al uso productivo. Su finalidad es ilustrar el concepto de **persistencia de configuraciones** en aplicaciones LabVIEW, y cómo estas configuraciones pueden mantenerse y actualizarse durante el ciclo de vida de la aplicación.
 
+Además, sirve como ejemplo básico del uso del patrón de diseño **QMH (Queued Message Handler)** en el desarrollo de aplicaciones LabVIEW estructuradas, modulares y mantenibles.
 
 ![imagen](https://github.com/user-attachments/assets/c978b7b1-ad67-47b7-b424-9d211e61dbab)
