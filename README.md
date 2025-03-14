@@ -27,6 +27,6 @@ El archivo `.ini` generado contiene los valores de configuración organizados en
 Parametro1=Valor1
 Parametro2=Valor2
 ...
-
+```
 
 ![imagen](https://github.com/user-attachments/assets/c978b7b1-ad67-47b7-b424-9d211e61dbab)
