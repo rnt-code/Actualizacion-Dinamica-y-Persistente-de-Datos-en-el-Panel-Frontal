@@ -67,4 +67,6 @@ Este proyecto tiene únicamente fines demostrativos y no está orientado al uso 
 
 Además, sirve como ejemplo básico del uso del patrón de diseño **QMH (Queued Message Handler)** en el desarrollo de aplicaciones LabVIEW estructuradas, modulares y mantenibles.
 
+Nota: Desarrollada en LV2024.
+
 ![imagen](https://github.com/user-attachments/assets/c978b7b1-ad67-47b7-b424-9d211e61dbab)
