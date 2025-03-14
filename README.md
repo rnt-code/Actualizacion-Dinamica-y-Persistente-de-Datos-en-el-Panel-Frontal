@@ -1,4 +1,4 @@
-# Prueba de concepto: Persistencia de datos de configuración en LabVIEW
+# Prueba de concepto: Actualización Dinámica y Persistente de Datos en el Panel Frontal en LabVIEW
 
 ## 📄 Descripción del proyecto
 
