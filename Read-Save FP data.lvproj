@@ -24,6 +24,7 @@
 		<Item Name="dependencies" Type="Folder">
 			<Item Name="load_user_data.vi" Type="VI" URL="../dependencies/load_user_data.vi"/>
 			<Item Name="read user data.vi" Type="VI" URL="../dependencies/read user data.vi"/>
+			<Item Name="read-write user data.vi" Type="VI" URL="../dependencies/read-write user data.vi"/>
 			<Item Name="save user data.vi" Type="VI" URL="../dependencies/save user data.vi"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
@@ -65,6 +66,7 @@
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
+			<Item Name="user data.ctl" Type="VI" URL="../controls/user data.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="user data.ini" Type="Document" URL="../user data.ini"/>
