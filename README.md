@@ -23,10 +23,18 @@ Este ejemplo puede servir como base para desarrollos más complejos que requiera
 El archivo `.ini` generado contiene los valores de configuración organizados en secciones y claves, con el formato típico de este tipo de archivos:
 
 ```ini
-[ConfiguracionGeneral]
-Parametro1=Valor1
-Parametro2=Valor2
-...
+[SEQUENCE]
+data = "first"
+ID = "TYU45"
+capacity = "6789"
+
+[CHASSIS]
+name = "midea"
+number = "FG56"
+
+[TYPE]
+name = "outdoor"
+ID = "GH6789"
 ```
 
 ![imagen](https://github.com/user-attachments/assets/c978b7b1-ad67-47b7-b424-9d211e61dbab)
