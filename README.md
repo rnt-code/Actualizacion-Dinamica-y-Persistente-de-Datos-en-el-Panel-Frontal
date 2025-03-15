@@ -71,6 +71,5 @@ Nota: Desarrollada en LabVIEW 2024. En la carpeta LV2015 hay una versión para L
 
 ![imagen](https://github.com/user-attachments/assets/c978b7b1-ad67-47b7-b424-9d211e61dbab)
 
-![Diagrama de flujo](https://github.com/user-attachments/assets/a3741576-28e8-4cd0-839f-d0dc848fd1da)
-
+![Diagrama de flujo](https://github.com/user-attachments/assets/0ab7f27b-417b-418b-bea2-c7f72bc8565f)
 
