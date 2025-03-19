@@ -64,8 +64,9 @@
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
+			<Item Name="path data.ctl" Type="VI" URL="../controls/path data.ctl"/>
+			<Item Name="string data.ctl" Type="VI" URL="../controls/string data.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
-			<Item Name="user data.ctl" Type="VI" URL="../controls/user data.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="user path data.ini" Type="Document" URL="../user path data.ini"/>
@@ -114,8 +115,6 @@
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="path data.ctl" Type="VI" URL="../controls/path data.ctl"/>
-			<Item Name="string data.ctl" Type="VI" URL="../controls/string data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
