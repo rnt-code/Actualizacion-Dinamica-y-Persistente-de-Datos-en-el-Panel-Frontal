@@ -22,7 +22,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="dependencies" Type="Folder">
-			<Item Name="read-write user data.vi" Type="VI" URL="../dependencies/read-write user data.vi"/>
+			<Item Name="read-write config ini path data.vi" Type="VI" URL="../dependencies/read-write config ini path data.vi"/>
+			<Item Name="read-write config ini string data.vi" Type="VI" URL="../dependencies/read-write config ini string data.vi"/>
+			<Item Name="read-write config ini.vi" Type="VI" URL="../dependencies/read-write config ini.vi"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -62,11 +64,13 @@
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
+			<Item Name="path data.ctl" Type="VI" URL="../controls/path data.ctl"/>
+			<Item Name="string data.ctl" Type="VI" URL="../controls/string data.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
-			<Item Name="user data.ctl" Type="VI" URL="../controls/user data.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="user data.ini" Type="Document" URL="../user data.ini"/>
+		<Item Name="user path data.ini" Type="Document" URL="../user path data.ini"/>
+		<Item Name="user string data.ini" Type="Document" URL="../user string data.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -108,6 +112,7 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
