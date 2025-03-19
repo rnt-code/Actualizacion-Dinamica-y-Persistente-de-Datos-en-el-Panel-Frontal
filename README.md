@@ -73,3 +73,16 @@ Nota: Desarrollada en LabVIEW 2024. En la carpeta LV2015 hay una versión para L
 
 ![Diagrama de flujo](https://github.com/user-attachments/assets/0ab7f27b-417b-418b-bea2-c7f72bc8565f)
 
+### 📌 Historial de versiones
+
+#### 🟢 Versión 1.1
+- Se mejora la implementación del manejo de persistencia de datos en el Front Panel.
+- Se reemplazaron los nodos de propiedad (`Property Node – Value`) por los nodos `Set Control Values by Index` y `Get Control Values by Index`.
+- Este cambio favorece la escalabilidad, limpieza y mantenibilidad del código, especialmente en aplicaciones con múltiples controles.
+- El nuevo enfoque requiere una lógica algo más elaborada para gestionar la lectura y escritura de archivos `.ini`, lo cual demandó mayor dedicación en el diseño del módulo correspondiente. No fue complejo, pero sí requirió cierto grado de astucia.
+
+#### ⚪ Versión 1.0
+- Implementación original de esta prueba de concepto.
+- Se utilizó la propiedad `Value` mediante nodos de propiedad (`Property Node`) para actualizar los controles del Front Panel.
+- El módulo de lectura y escritura del archivo `.ini` fue sencillo de desarrollar, dada la menor complejidad de este enfoque inicial.
+- El enfoque actual resulta completamente funcional para aplicaciones pequeñas o con bajo número de controles.
