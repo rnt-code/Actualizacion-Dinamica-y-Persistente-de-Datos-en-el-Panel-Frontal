@@ -67,8 +67,12 @@
 			<Item Name="ring data.ctl" Type="VI" URL="../controls/ring data.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
+		<Item Name="clean ring control.vi" Type="VI" URL="../dependencies/clean ring control.vi"/>
+		<Item Name="fill ring control with options.vi" Type="VI" URL="../dependencies/fill ring control with options.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="read ring control values and indexes.vi" Type="VI" URL="../dependencies/read ring control values and indexes.vi"/>
 		<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
+		<Item Name="set.vi" Type="VI" URL="../dependencies/set.vi"/>
 		<Item Name="user ring data.ini" Type="Document" URL="../user ring data.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
