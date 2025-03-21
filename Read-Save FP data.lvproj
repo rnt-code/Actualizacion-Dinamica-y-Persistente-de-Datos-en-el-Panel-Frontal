@@ -65,11 +65,11 @@
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="path data.ctl" Type="VI" URL="../controls/path data.ctl"/>
+			<Item Name="ring data.ctl" Type="VI" URL="../controls/ring data.ctl"/>
 			<Item Name="string data.ctl" Type="VI" URL="../controls/string data.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="ring data.ctl" Type="VI" URL="../controls/ring data.ctl"/>
 		<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
 		<Item Name="user path data.ini" Type="Document" URL="../user path data.ini"/>
 		<Item Name="user ring data.ini" Type="Document" URL="../user ring data.ini"/>
