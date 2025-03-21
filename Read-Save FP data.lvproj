@@ -71,9 +71,7 @@
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
-		<Item Name="user path data.ini" Type="Document" URL="../user path data.ini"/>
 		<Item Name="user ring data.ini" Type="Document" URL="../user ring data.ini"/>
-		<Item Name="user string data.ini" Type="Document" URL="../user string data.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
