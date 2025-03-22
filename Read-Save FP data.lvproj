@@ -22,9 +22,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="dependencies" Type="Folder">
-			<Item Name="read-write config ini path data.vi" Type="VI" URL="../dependencies/read-write config ini path data.vi"/>
-			<Item Name="read-write config ini string data.vi" Type="VI" URL="../dependencies/read-write config ini string data.vi"/>
-			<Item Name="read-write config ini.vi" Type="VI" URL="../dependencies/read-write config ini.vi"/>
+			<Item Name="clean ring control.vi" Type="VI" URL="../dependencies/clean ring control.vi"/>
+			<Item Name="fill ring control with options.vi" Type="VI" URL="../dependencies/fill ring control with options.vi"/>
+			<Item Name="set and get ring values.vi" Type="VI" URL="../dependencies/set and get ring values.vi"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -67,12 +67,9 @@
 			<Item Name="ring data.ctl" Type="VI" URL="../controls/ring data.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
-		<Item Name="clean ring control.vi" Type="VI" URL="../dependencies/clean ring control.vi"/>
-		<Item Name="fill ring control with options.vi" Type="VI" URL="../dependencies/fill ring control with options.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="read ring control values and indexes.vi" Type="VI" URL="../dependencies/read ring control values and indexes.vi"/>
+		<Item Name="read-write config ini.lvlib" Type="Library" URL="../dependencies/read-write config ini.lvlib"/>
 		<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
-		<Item Name="set.vi" Type="VI" URL="../dependencies/set.vi"/>
 		<Item Name="user ring data.ini" Type="Document" URL="../user ring data.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
