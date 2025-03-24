@@ -36,5 +36,5 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Create User Event - Stop.vi" Type="VI" URL="../Create User Event - Stop.vi"/>
 	<Item Name="Fire User Event - Stop.vi" Type="VI" URL="../Fire User Event - Stop.vi"/>
-	<Item Name="Destroy User Event - Stop.vi" Type="VI" URL="../../../Integrity/support/User Event - Stop/Destroy User Event - Stop.vi"/>
+	<Item Name="Destroy User Event - Stop.vi" Type="VI" URL="../Destroy User Event - Stop.vi"/>
 </Library>

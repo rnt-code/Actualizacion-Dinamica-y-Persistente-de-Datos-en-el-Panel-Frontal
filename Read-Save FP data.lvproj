@@ -26,6 +26,19 @@
 			<Item Name="fill ring control with options.vi" Type="VI" URL="../dependencies/fill ring control with options.vi"/>
 			<Item Name="set and get ring values.vi" Type="VI" URL="../dependencies/set and get ring values.vi"/>
 		</Item>
+		<Item Name="Integrity2" Type="Folder">
+			<Item Name="controls" Type="Folder">
+				<Item Name="Data.ctl" Type="VI" URL="../Integrity2/controls/Data.ctl"/>
+				<Item Name="State &amp; Data Cluster.ctl" Type="VI" URL="../Integrity2/controls/State &amp; Data Cluster.ctl"/>
+			</Item>
+			<Item Name="support" Type="Folder">
+				<Item Name="create queue.vi" Type="VI" URL="../Integrity2/support/create queue.vi"/>
+				<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../Integrity2/support/dequeue state &amp; data.vi"/>
+				<Item Name="queue state &amp; data.lvlib" Type="Library" URL="../Integrity2/support/queue state &amp; data.lvlib"/>
+				<Item Name="queue state &amp; data.vi" Type="VI" URL="../Integrity2/support/queue state &amp; data.vi"/>
+			</Item>
+			<Item Name="Integrity2.vi" Type="VI" URL="../Integrity2/Integrity2.vi"/>
+		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Documentation Images" Type="Folder">
