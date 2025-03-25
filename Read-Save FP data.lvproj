@@ -20,24 +20,9 @@
 		<Item Name="dependencies" Type="Folder">
 			<Item Name="clean ring control.vi" Type="VI" URL="../dependencies/clean ring control.vi"/>
 			<Item Name="fill ring control with options.vi" Type="VI" URL="../dependencies/fill ring control with options.vi"/>
+			<Item Name="sectors checker.vi" Type="VI" URL="../dependencies/sectors checker.vi"/>
 			<Item Name="set and get ring values.vi" Type="VI" URL="../dependencies/set and get ring values.vi"/>
-		</Item>
-		<Item Name="Integrity" Type="Folder">
-			<Item Name="controls" Type="Folder">
-				<Item Name="Data.ctl" Type="VI" URL="../Integrity/controls/Data.ctl"/>
-				<Item Name="State &amp; Data Cluster.ctl" Type="VI" URL="../Integrity/controls/State &amp; Data Cluster.ctl"/>
-			</Item>
-			<Item Name="dependencies" Type="Folder">
-				<Item Name="sectors checker.vi" Type="VI" URL="../Integrity/dependencies/sectors checker.vi"/>
-				<Item Name="values checker.vi" Type="VI" URL="../Integrity/dependencies/values checker.vi"/>
-			</Item>
-			<Item Name="support" Type="Folder">
-				<Item Name="create queue.vi" Type="VI" URL="../Integrity/support/create queue.vi"/>
-				<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../Integrity/support/dequeue state &amp; data.vi"/>
-				<Item Name="queue state &amp; data.lvlib" Type="Library" URL="../Integrity/support/queue state &amp; data.lvlib"/>
-				<Item Name="queue state &amp; data.vi" Type="VI" URL="../Integrity/support/queue state &amp; data.vi"/>
-			</Item>
-			<Item Name="Integrity.vi" Type="VI" URL="../Integrity/Integrity.vi"/>
+			<Item Name="values checker.vi" Type="VI" URL="../dependencies/values checker.vi"/>
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Item Name="Message Queue" Type="Folder">
