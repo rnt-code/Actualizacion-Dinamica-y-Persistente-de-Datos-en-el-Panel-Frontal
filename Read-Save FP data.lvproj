@@ -41,8 +41,6 @@
 				<Item Name="queue state &amp; data.vi" Type="VI" URL="../Integrity/support/queue state &amp; data.vi"/>
 			</Item>
 			<Item Name="Integrity.vi" Type="VI" URL="../Integrity/Integrity.vi"/>
-			<Item Name="ring options.ini" Type="Document" URL="../Integrity/ring options.ini"/>
-			<Item Name="user ring data.ini" Type="Document" URL="../Integrity/user ring data.ini"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -85,7 +83,6 @@
 			<Item Name="ring data.ctl" Type="VI" URL="../controls/ring data.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
-		<Item Name="Checker.lvlib" Type="Library" URL="../../../Checker.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="read-write config ini.lvlib" Type="Library" URL="../dependencies/read-write config ini.lvlib"/>
 		<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
@@ -123,8 +120,8 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Difference.vim"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Set Symmetric Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Symmetric Difference.vim"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
