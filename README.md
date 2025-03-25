@@ -75,7 +75,79 @@ Nota: Desarrollada en LabVIEW 2024. En la carpeta LV2015 hay una versión para L
 
 ### 📌 Historial de versiones
 
-#### 🟢 Versión 1.1
+#### 🟢 Versión 2.0
+
+Esta es la versión 2.0 de la aplicación de persistencia, desarrollada en LabVIEW. Esta versión gestiona el almacenamiento y recuperación de la configuración de controles tipo **Ring** en el Front Panel (FP) de un VI de LabVIEW. La aplicación es compatible con la lectura de archivos `.ini`, los cuales permiten poblar los controles en tiempo de ejecución y almacenar las opciones seleccionadas por el usuario.
+
+### Características principales de la versión 2.0
+- **Persistencia de configuraciones:** Los valores seleccionados en los controles **Ring** se almacenan en el archivo `user_ring_data.ini` y se recuperan al reiniciar la aplicación.
+- **Verificación de integridad:** Se realiza un control de integridad para verificar que los archivos de configuración (`ring_options.ini` y `user_ring_data.ini`) sean consistentes y estén bien formateados.
+- **Interacción en tiempo real:** Cuando el usuario cambia una selección en los controles **Ring**, la aplicación guarda automáticamente el estado del control en el archivo `user_ring_data.ini`.
+
+## Archivos de Configuración
+
+`ring_options.ini`
+Este archivo contiene las opciones disponibles para los controles **Ring**. Ejemplo:
+
+```ini
+[SEQUENCES]
+seq0 = "LOW"
+seq1 = "LOW,MID"
+seq2 = "LOW,HIGH"
+seq3 = "LOW,TURBO"
+seq4 = "LOW,MID,HIGH"
+seq5 = "LOW,MID,TURBO"
+seq6 = "LOW,HIGH,TURBO"
+seq7 = "LOW,MID,HIGH,TURBO"
+
+[CHASSIS]
+kit0 = "MIDEA"
+kit1 = "TCL"
+
+[TYPE]
+type0 = "AB ROS"
+type1 = "INVERTER AG"
+type2 = "INVERTER SAMSUNG"
+
+[CAPACITY]
+capacity0 = "9k"
+capacity1 = "12k"
+capacity2 = "18k"
+capacity3 = "24k"
+```
+
+`user_ring_data.ini`
+Este archivo guarda las selecciones del usuario en los controles Ring. Ejemplo:
+
+```ini
+[SEQUENCES]
+sequence = "LOW,MID,TURBO"
+index = "5"
+
+[CHASSIS]
+chassis = "TCL"
+index = "1"
+
+[TYPE]
+type = "INVERTER SAMSUNG"
+index = "2"
+
+[CAPACITY]
+capacity = "12k"
+index = "1"
+```
+### Flujo de Funcionamiento
+
+- Lectura de archivos de configuración: Al iniciar la aplicación, se leen los archivos ring_options.ini y user_ring_data.ini para poblar los controles Ring con las opciones disponibles y las configuraciones previas del usuario.
+
+- Verificación de integridad: Se verifica que los sectores y las etiquetas de ambos archivos coincidan en nombre y cantidad. Si hay discrepancias, se genera un mensaje de error.
+
+- Interacción del usuario: Los controles Ring muestran las opciones al usuario, quien puede cambiar la selección.
+
+- Persistencia de datos: Cuando el usuario cambia un valor en un control Ring, la selección se guarda automáticamente en user_ring_data.ini para su futura recuperación.
+
+
+#### ⚪ Versión 1.1
 - Se mejora la implementación del manejo de persistencia de datos en el Front Panel.
 - Se reemplazaron los nodos de propiedad (`Property Node – Value`) por los nodos `Set Control Values by Index` y `Get Control Values by Index`.
 - Este cambio favorece la escalabilidad, limpieza y mantenibilidad del código, especialmente en aplicaciones con múltiples controles.
