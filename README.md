@@ -146,6 +146,7 @@ index = "1"
 
 - Persistencia de datos: Cuando el usuario cambia un valor en un control Ring, la selección se guarda automáticamente en user_ring_data.ini para su futura recuperación.
 
+![imagen](https://github.com/user-attachments/assets/bcfd6256-2a75-48d3-9a55-090f07f966b1)
 
 #### ⚪ Versión 1.1
 - Se mejora la implementación del manejo de persistencia de datos en el Front Panel.
