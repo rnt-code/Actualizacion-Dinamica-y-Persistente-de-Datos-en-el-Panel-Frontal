@@ -26,18 +26,23 @@
 			<Item Name="fill ring control with options.vi" Type="VI" URL="../dependencies/fill ring control with options.vi"/>
 			<Item Name="set and get ring values.vi" Type="VI" URL="../dependencies/set and get ring values.vi"/>
 		</Item>
-		<Item Name="Integrity2" Type="Folder">
+		<Item Name="Integrity" Type="Folder">
 			<Item Name="controls" Type="Folder">
-				<Item Name="Data.ctl" Type="VI" URL="../Integrity2/controls/Data.ctl"/>
-				<Item Name="State &amp; Data Cluster.ctl" Type="VI" URL="../Integrity2/controls/State &amp; Data Cluster.ctl"/>
+				<Item Name="Data.ctl" Type="VI" URL="../Integrity/controls/Data.ctl"/>
+				<Item Name="State &amp; Data Cluster.ctl" Type="VI" URL="../Integrity/controls/State &amp; Data Cluster.ctl"/>
+			</Item>
+			<Item Name="dependencies" Type="Folder">
+				<Item Name="sectors checker.vi" Type="VI" URL="../Integrity/dependencies/sectors checker.vi"/>
 			</Item>
 			<Item Name="support" Type="Folder">
-				<Item Name="create queue.vi" Type="VI" URL="../Integrity2/support/create queue.vi"/>
-				<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../Integrity2/support/dequeue state &amp; data.vi"/>
-				<Item Name="queue state &amp; data.lvlib" Type="Library" URL="../Integrity2/support/queue state &amp; data.lvlib"/>
-				<Item Name="queue state &amp; data.vi" Type="VI" URL="../Integrity2/support/queue state &amp; data.vi"/>
+				<Item Name="create queue.vi" Type="VI" URL="../Integrity/support/create queue.vi"/>
+				<Item Name="dequeue state &amp; data.vi" Type="VI" URL="../Integrity/support/dequeue state &amp; data.vi"/>
+				<Item Name="queue state &amp; data.lvlib" Type="Library" URL="../Integrity/support/queue state &amp; data.lvlib"/>
+				<Item Name="queue state &amp; data.vi" Type="VI" URL="../Integrity/support/queue state &amp; data.vi"/>
 			</Item>
-			<Item Name="Integrity2.vi" Type="VI" URL="../Integrity2/Integrity2.vi"/>
+			<Item Name="Integrity.vi" Type="VI" URL="../Integrity/Integrity.vi"/>
+			<Item Name="ring options.ini" Type="Document" URL="../Integrity/ring options.ini"/>
+			<Item Name="user ring data.ini" Type="Document" URL="../Integrity/user ring data.ini"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -118,6 +123,7 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Difference.vim"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
