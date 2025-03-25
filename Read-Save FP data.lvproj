@@ -29,7 +29,7 @@
 			</Item>
 			<Item Name="dependencies" Type="Folder">
 				<Item Name="sectors checker.vi" Type="VI" URL="../Integrity/dependencies/sectors checker.vi"/>
-				<Item Name="values checher.vi" Type="VI" URL="../Integrity/dependencies/values checher.vi"/>
+				<Item Name="values checker.vi" Type="VI" URL="../Integrity/dependencies/values checker.vi"/>
 			</Item>
 			<Item Name="support" Type="Folder">
 				<Item Name="create queue.vi" Type="VI" URL="../Integrity/support/create queue.vi"/>
