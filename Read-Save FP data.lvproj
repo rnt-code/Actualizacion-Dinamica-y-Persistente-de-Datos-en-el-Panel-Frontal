@@ -20,7 +20,6 @@
 		<Item Name="dependencies" Type="Folder">
 			<Item Name="clean ring control.vi" Type="VI" URL="../dependencies/clean ring control.vi"/>
 			<Item Name="fill ring control with options.vi" Type="VI" URL="../dependencies/fill ring control with options.vi"/>
-			<Item Name="read-write config ini.lvlib" Type="Library" URL="../dependencies/read-write config ini.lvlib"/>
 			<Item Name="set and get ring values.vi" Type="VI" URL="../dependencies/set and get ring values.vi"/>
 		</Item>
 		<Item Name="Integrity" Type="Folder">
@@ -54,6 +53,7 @@
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="read-write config ini.lvlib" Type="Library" URL="../dependencies/read-write config ini.lvlib"/>
 		<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
 		<Item Name="user ring data.ini" Type="Document" URL="../user ring data.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
