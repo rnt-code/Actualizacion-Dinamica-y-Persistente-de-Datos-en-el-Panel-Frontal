@@ -38,8 +38,6 @@
 				<Item Name="queue state &amp; data.vi" Type="VI" URL="../Integrity/support/queue state &amp; data.vi"/>
 			</Item>
 			<Item Name="Integrity.vi" Type="VI" URL="../Integrity/Integrity.vi"/>
-			<Item Name="ring options.ini" Type="Document" URL="../Integrity/ring options.ini"/>
-			<Item Name="user ring data.ini" Type="Document" URL="../Integrity/user ring data.ini"/>
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Item Name="Message Queue" Type="Folder">
