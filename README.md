@@ -138,13 +138,13 @@ index = "1"
 ```
 ### Flujo de Funcionamiento
 
-- Lectura de archivos de configuración: Al iniciar la aplicación, se leen los archivos ring_options.ini y user_ring_data.ini para poblar los controles Ring con las opciones disponibles y las configuraciones previas del usuario.
+- Lectura de archivos de configuración: Al iniciar la aplicación, se leen los archivos `ring_options.ini` y `user_ring_data.ini` para poblar los controles Ring con las opciones disponibles y las configuraciones previas del usuario.
 
 - Verificación de integridad: Se verifica que los sectores y las etiquetas de ambos archivos coincidan en nombre y cantidad. Si hay discrepancias, se genera un mensaje de error.
 
 - Interacción del usuario: Los controles Ring muestran las opciones al usuario, quien puede cambiar la selección.
 
-- Persistencia de datos: Cuando el usuario cambia un valor en un control Ring, la selección se guarda automáticamente en user_ring_data.ini para su futura recuperación.
+- Persistencia de datos: Cuando el usuario cambia un valor en un control Ring, la selección se guarda automáticamente en `user_ring_data.ini` para su futura recuperación.
 
 ![imagen](https://github.com/user-attachments/assets/bcfd6256-2a75-48d3-9a55-090f07f966b1)
 
