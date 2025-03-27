@@ -37,7 +37,9 @@
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="read-write config ini.lvlib" Type="Library" URL="../dependencies/read-write config ini.lvlib"/>
+		<Item Name="remove all keys from a sector.vi" Type="VI" URL="../dependencies/remove all keys from a sector.vi"/>
 		<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
+		<Item Name="type by chassis.ini" Type="Document" URL="../type by chassis.ini"/>
 		<Item Name="user ring data.ini" Type="Document" URL="../user ring data.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
