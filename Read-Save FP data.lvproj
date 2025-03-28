@@ -26,7 +26,6 @@
 			<Item Name="sectors checker.vi" Type="VI" URL="../dependencies/sectors checker.vi"/>
 			<Item Name="set and get ring values.vi" Type="VI" URL="../dependencies/set and get ring values.vi"/>
 			<Item Name="values checker.vi" Type="VI" URL="../dependencies/values checker.vi"/>
-			<Item Name="write keys per section.vi" Type="VI" URL="../dependencies/write keys per section.vi"/>
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Item Name="Message Queue" Type="Folder">
