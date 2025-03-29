@@ -13,16 +13,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
-			<Item Name="path data.ctl" Type="VI" URL="../controls/path data.ctl"/>
-			<Item Name="section data.ctl" Type="VI" URL="../controls/section data.ctl"/>
-			<Item Name="string data.ctl" Type="VI" URL="../controls/string data.ctl"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
 		<Item Name="dependencies" Type="Folder">
-			<Item Name="API Config Files Management.lvlib" Type="Library" URL="../dependencies/API Config Files Management.lvlib"/>
 			<Item Name="clean ring control.vi" Type="VI" URL="../dependencies/clean ring control.vi"/>
 			<Item Name="fill ring control with options.vi" Type="VI" URL="../dependencies/fill ring control with options.vi"/>
-			<Item Name="read-write config ini.lvlib" Type="Library" URL="../dependencies/read-write config ini.lvlib"/>
 			<Item Name="sectors checker.vi" Type="VI" URL="../dependencies/sectors checker.vi"/>
 			<Item Name="set and get ring values.vi" Type="VI" URL="../dependencies/set and get ring values.vi"/>
 			<Item Name="values checker.vi" Type="VI" URL="../dependencies/values checker.vi"/>
@@ -38,6 +34,7 @@
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
+		<Item Name="API Config Files Management.lvlib" Type="Library" URL="../dependencies/API Config Files Management.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
 		<Item Name="type by chassis.ini" Type="Document" URL="../type by chassis.ini"/>
@@ -87,7 +84,6 @@
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="ring data.ctl" Type="VI" URL="../controls/ring data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

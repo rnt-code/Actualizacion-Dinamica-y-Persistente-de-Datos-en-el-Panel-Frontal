@@ -5,11 +5,13 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="write keys per section.vi" Type="VI" URL="../write keys per section.vi"/>
 	<Item Name="close config file.vi" Type="VI" URL="../close config file.vi"/>
 	<Item Name="open config file.vi" Type="VI" URL="../open config file.vi"/>
 	<Item Name="read config ini data.vi" Type="VI" URL="../read config ini data.vi"/>
-	<Item Name="read keys per section.vi" Type="VI" URL="../read keys per section.vi"/>
-	<Item Name="remove all keys per section.vi" Type="VI" URL="../remove all keys per section.vi"/>
 	<Item Name="write config ini data.vi" Type="VI" URL="../write config ini data.vi"/>
+	<Item Name="read keys per section.vi" Type="VI" URL="../read keys per section.vi"/>
+	<Item Name="write keys per section.vi" Type="VI" URL="../write keys per section.vi"/>
+	<Item Name="remove all keys per section.vi" Type="VI" URL="../remove all keys per section.vi"/>
+	<Item Name="config data.ctl" Type="VI" URL="../config data.ctl"/>
+	<Item Name="section data.ctl" Type="VI" URL="../section data.ctl"/>
 </Library>
