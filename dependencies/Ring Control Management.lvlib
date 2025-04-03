@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="clean ring control.vi" Type="VI" URL="../clean ring control.vi"/>
-	<Item Name="fill ring control with options.vi" Type="VI" URL="../fill ring control with options.vi"/>
 	<Item Name="get ring control values.vi" Type="VI" URL="../get ring control values.vi"/>
+	<Item Name="populate ring controls.vi" Type="VI" URL="../populate ring controls.vi"/>
 	<Item Name="set ring control values.vi" Type="VI" URL="../set ring control values.vi"/>
 </Library>
