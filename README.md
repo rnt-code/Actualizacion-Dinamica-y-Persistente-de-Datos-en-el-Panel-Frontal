@@ -75,8 +75,54 @@ Nota: Desarrollada en LabVIEW 2024. En la carpeta LV2015 hay una versión para L
 
 ### 📌 Historial de versiones
 
-#### 🟢 Versión 2.0
+#### 🟢 Versión 2.1 – Soporte para controles Ring dependientes
+En esta versión, se introduce una jerarquía entre los controles Ring. En particular, el control Ring llamado `Type` depende del valor seleccionado en el control `Chassis`.
 
+Esto significa que la lista de opciones disponibles en `Type` se actualiza dinámicamente en tiempo de ejecución, en función del ítem seleccionado en `Chassis`.  
+La relación de dependencia se gestiona mediante un nuevo archivo de configuración auxiliar.
+
+### Nuevo archivo: `type by chassis.ini`
+
+Este archivo contiene una sección por cada tipo de chasis definido en `ring options.ini`. Cada sección debe tener como sufijo obligatorio `_TYPE` y enumerar los posibles valores para el control `Type` correspondientes al chasis especificado.
+
+#### Ejemplo:
+
+```ini
+[MIDEA_TYPE]
+type0 = "AB ROS"
+type1 = "INVERTER AG"
+type2 = "INVERTER SAMSUNG"
+
+[TCL_TYPE]
+type0 = "ON/OFF"
+type1 = "INVERTER1"
+type2 = "INVERTER2"
+```
+
+---
+
+## Nota técnica – Reglas de consistencia entre archivos
+
+Para mantener la integridad del sistema y evitar errores en tiempo de ejecución, es imprescindible respetar las siguientes reglas:
+
+### En el archivo `type by chassis.ini`:
+
+> **⚠️ ATENCIÓN:** Cada vez que se agregue una nueva sección a este archivo:
+>
+> - El nombre **debe** incluir el sufijo `_TYPE`.
+> - Debe haber una entrada correspondiente en la sección `[CHASSIS]` del archivo `ring options.ini`.
+> - Por ejemplo: si se crea la sección `[NEW_TYPE]`, entonces debe agregarse en `ring options.ini` la línea `kitN = "NEW"` en `[CHASSIS]`.
+
+### En el archivo `ring options.ini`:
+
+> **⚠️ ADVERTENCIA:** Cada vez que se agregue una nueva entrada en la sección `[CHASSIS]`:
+>
+> - Debe crearse en `type by chassis.ini` una sección con el nombre correspondiente seguido de `_TYPE`.
+> - Por ejemplo: si se agrega `kitN = "NEW"` en `[CHASSIS]`, se debe crear `[NEW_TYPE]` en `type by chassis.ini`.
+
+Ambos archivos deben permanecer sincronizados para asegurar el correcto funcionamiento del control dependiente `Type`.
+
+#### ⚪ Versión 2.0
 Esta es la versión 2.0 de la aplicación de persistencia, desarrollada en LabVIEW. Esta versión gestiona el almacenamiento y recuperación de la configuración de controles tipo **Ring** en el Front Panel (FP) de un VI de LabVIEW. La aplicación es compatible con la lectura de archivos `.ini`, los cuales permiten poblar los controles en tiempo de ejecución y almacenar las opciones seleccionadas por el usuario.
 
 ## Características principales de la versión 2.0
