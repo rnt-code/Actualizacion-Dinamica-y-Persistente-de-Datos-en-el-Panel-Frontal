@@ -122,6 +122,8 @@ Para mantener la integridad del sistema y evitar errores en tiempo de ejecución
 
 Ambos archivos deben permanecer sincronizados para asegurar el correcto funcionamiento del control dependiente `Type`.
 
+![imagen](https://github.com/user-attachments/assets/230f216d-e59a-447a-8c40-95cdf85db166)
+
 #### ⚪ Versión 2.0
 Esta es la versión 2.0 de la aplicación de persistencia, desarrollada en LabVIEW. Esta versión gestiona el almacenamiento y recuperación de la configuración de controles tipo **Ring** en el Front Panel (FP) de un VI de LabVIEW. La aplicación es compatible con la lectura de archivos `.ini`, los cuales permiten poblar los controles en tiempo de ejecución y almacenar las opciones seleccionadas por el usuario.
 
