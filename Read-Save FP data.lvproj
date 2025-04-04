@@ -14,7 +14,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
 		<Item Name="dependencies" Type="Folder">
@@ -32,11 +31,10 @@
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="API Config Files Management.lvlib" Type="Library" URL="../dependencies/API Config Files Management.lvlib"/>
 		<Item Name="Ring Control Management.lvlib" Type="Library" URL="../dependencies/Ring Control Management.lvlib"/>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
-		<Item Name="type by chassis.ini" Type="Document" URL="../type by chassis.ini"/>
 		<Item Name="user ring data.ini" Type="Document" URL="../user ring data.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
