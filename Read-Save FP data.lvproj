@@ -36,6 +36,7 @@
 		<Item Name="Ring Control Management.lvlib" Type="Library" URL="../dependencies/Ring Control Management.lvlib"/>
 		<Item Name="ring options.ini" Type="Document" URL="../ring options.ini"/>
 		<Item Name="user ring data.ini" Type="Document" URL="../user ring data.ini"/>
+		<Item Name="type by chassis.ini" Type="Document" URL="../type by chassis.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -81,7 +82,6 @@
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="fill ring control with options.vi" Type="VI" URL="../dependencies/fill ring control with options.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
